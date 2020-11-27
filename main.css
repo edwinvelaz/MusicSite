@@ -1,0 +1,40 @@
+body {
+    background:linear-gradient(darkcyan, gold);
+}
+
+.jumbotron {
+    background: none;
+    color: beige;
+}
+
+.form-container {
+    margin: 10px 10px;
+    border: solid white;
+    padding: 25px;
+    box-shadow: 9px 9px whitesmoke;
+    border-radius: 50px;
+    margin-left: 10px;
+    background: white;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    border-radius: 50px;
+}
+
+.card{
+    margin: 10px 10px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 9px 9px whitesmoke;
+    width: 60%;
+    margin-left: 60px;
+    border: none;
+}
+
+.card-header {
+    border-radius: 50px;
+    padding: 25px;
+    background: none;
+}
