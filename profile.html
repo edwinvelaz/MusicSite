@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="profile.css">
+
+    <title>Music</title>
+</head>
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="index.html">MusicShare</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Favorites</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<!--music card-->
+      <div class="music-app container my-5">
+        <div class="row">
+          <div class="col-4 mb-4">
+      
+            <div class="card mobile-rounded">
+              <div class="card-body p-1 mt-5">
+      
+                <p class="px-3 mt-3 mb-n2 font-weight-bold">Discover music</p>
+      
+                <div id="music-carousel" class="carousel slide carousel-multi-item mb-0" data-ride="carousel">
+      
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators mt-0 mb-n2">
+                    <li data-target="#music-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#music-carousel" data-slide-to="1"></li>
+                    <li data-target="#music-carousel" data-slide-to="2"></li>
+                  </ol>
+                  <!--/.Indicators-->
+
+      <!--Carousel items-->
+                  <div class="carousel-inner" role="listbox">
+      
+                    <div class="carousel-item active">
+                      <div class="col-12 px-0">
+                        <div class="view rounded z-depth-1 m-3">
+                          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/app(1).jpg" alt="Sample image">
+                          <a>
+                            <div class="mask peach-gradient-rgba d-flex align-items-end justify-content-start text-white">
+                              <p class="font-weight-bold h7 ml-3">Ignant Benches - I dont make me</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-12 px-0">
+                        <div class="view rounded z-depth-1 m-3">
+                          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/app(4).jpg" alt="Sample image">
+                          <a>
+                            <div class="mask aqua-gradient-rgba d-flex align-items-end justify-content-start text-white">
+                              <p class="font-weight-bold h6 ml-5">The Strokes - Last Nite</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="view rounded z-depth-1 m-3">
+                        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/app(5).jpg" alt="Sample image">
+                        <a>
+                          <div class="mask blue-gradient-rgba d-flex align-items-end justify-content-start text-white">
+                            <p class="font-weight-bold h6 ml-3">The Killers - When you were young</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+      
+                  </div>
+                </div>
+      <!--Recently played-->
+                <p class="px-3 mt-3 mb-2 font-weight-bold">Recently played</p>
+      
+                <!-- Grid row -->
+                <div class="row mx-2 px-1">
+      
+                  <!-- Grid column -->
+                  <div class="col-4 px-1 text-center">
+      
+                    <div class="view rounded z-depth-1">
+                      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Square/img(1).jpg" alt="Sample image">
+                      <a>
+                        <div class="mask rgba-black-light d-flex align-items-end justify-content-start text-white">
+                        </div>
+                      </a>
+                    </div>
+                    <p class="font-small mt-3 mb-1">Artist</p>
+                    <p class="font-small mb-0">Song</p>
+      
+                  </div>
+                  <!-- Grid column -->
+      
+                  <!-- Grid column -->
+                  <div class="col-4 px-1 text-center">
+      
+                    <div class="view rounded z-depth-1">
+                      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Square/img(1).jpg" alt="Sample image">
+                      <a>
+                        <div class="mask rgba-black-light d-flex align-items-end justify-content-start text-white">
+                        </div>
+                      </a>
+                    </div>
+                    <p class="font-small mt-3 mb-1">Artist</p>
+                    <p class="font-small mb-0">Song</p>
+                  </div>
+                  <div class="col-4 px-1 text-center">
+                    <div class="view rounded z-depth-1">
+                      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Square/img(1).jpg" alt="Sample image">
+                      <a>
+                        <div class="mask rgba-black-light d-flex align-items-end justify-content-start text-white">
+                        </div>
+                      </a>
+                    </div>
+                    <p class="font-small mt-3 mb-1">Artist</p>
+                    <p class="font-small mb-0">Song</p>
+                  </div>
+                </div>
+      <!--/ Recently played-->
+                <p class="px-3 mt-3 mb-2 font-weight-bold">Recommend</p>
+      
+                <!-- Grid row -->
+                <div class="row">
+      
+                  <!-- Grid column -->
+                  <div class="col-md-12 mx-3">
+      
+                    <ul class="list-unstyled">
+                      <li class="media">
+                        <img class="d-flex mr-3 rounded z-depth-1" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="mt-0 mb-1 font-weight-bold">Artist 1</h5>
+                          <p>Song1</p>
+                        </div>
+                      </li>
+                      <li class="media mt-2 pt-1">
+                        <img class="d-flex mr-3 rounded z-depth-1" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="mt-0 mb-1 font-weight-bold">Artist2</h5>
+                          <p>Song2</p>
+                        </div>
+                      </li>
+                    </ul>
+      
+                  </div>
+                  <!-- Grid column -->
+      
+                </div>
+                <!-- Grid row -->
+      
+              </div>
+      
+              <div class="touch-button-wrapper d-flex justify-content-center align-items-center">
+                <div class="touch-button"></div>
+              </div>
+      
+            </div>
+      
+          </div>
+          <!-- Grid column -->
+      
+          <!-- Grid column -->
+          <div class="col-4 mb-4">
+      
+            <div class="card mobile-rounded">
+              <div class="card-body p-1 mt-5">
+      
+                <!-- Grid row -->
+                <div class="row">
+      
+                  <!-- Grid column -->
+                  <div class="col-md-12 mb-4 d-flex justify-content-between mt-2">
+      
+                    <i class="fas fa-angle-left fa-2x ml-2 pl-1"></i>
+                    <i class="fas fa-ellipsis-h fa-lg mt-2 mr-3"></i>
+      
+                  </div>
+                  <!-- Grid column -->
+      
+                </div>
+                <!-- Grid row -->
+      
+                <!-- Grid row -->
+                <div class="row">
+      
+                  <!-- Grid column -->
+                  <div class="col-md-12 music-player d-flex justify-content-center align-items-center">
+      
+                    <div class="view rounded-circle z-depth-1 music-img animated pulse infinite">
+                      <img class="img-fluid" src="https://mdbootstrap.com/wp-content/uploads/2019/02/flam.jpg" alt="Sample image">
+                      <a>
+                        <div class="mask blue-gradient-rgba-player d-flex align-items-end justify-content-start text-white"></div>
+                      </a>
+                    </div>
+      
+                  </div>
+                  <!-- Grid column -->
+      
+                </div>
+                <!-- Grid row -->
+      
+                <!-- Grid row -->
+                <div class="row">
+      
+                  <!-- Grid column -->
+                  <div class="col-md-12 mb-4 text-center">
+      
+                    <h5 class="h5 font-weight-bold"><a href="https://bachataurban.com/" target="_blank">Artist</a></h5>
+                    <p class="mb-2">Song name</p>
+      
+                  </div>
+                  <!-- Grid column -->
+      
+                </div>
+                <!-- Grid row -->
+      
+                <!-- Grid row -->
+                <div class="row">
+      
+                  <!-- Grid column -->
+                  <div class="col-md-12">
+      
+                    <div class="d-flex justify-content-between mx-3">
+                      <i class="fas fa-share fa-lg"></i>
+                      <i class="fas fa-plus fa-lg"></i>
+                      <i class="fas fa-download fa-lg"></i>
+                      <i class="far fa-heart fa-lg"></i>
+                    </div>
+      
+                  </div>
+                  <!-- Grid column -->
+      
+                </div>
+                <!-- Grid row -->
+      
+                <!-- Grid row -->
+                <div class="row">
+      
+                  <!-- Grid column -->
+                  <div class="col-md-12 mt-4 mb-5">
+      
+                    <div id="mobile-box" class="ml-1 mr-n2">
+      
+                      <audio id="music" preload="true">
+                        <source src="https://bachataurban.com/download/2/Stefflon%20Don%20-%2016%20Shots%20(%20DJ%20Flam%20-%20Urban%20Bachata%20remix%20).mp3">
+                      </audio>
+      
+                      <div id="audioplayer">
+                        <div id="timeline">
+                          <div id="playhead"></div>
+                        </div>
+                      </div>
+      
+                    </div>
+      
+                  </div>
+                  <!-- Grid column -->
+      
+                </div>
+                <!-- Grid row -->
+      
+                <!-- Grid row -->
+                <div class="row">
+      
+                  <!-- Grid column -->
+                  <div class="col-md-12 mb-4">
+      
+                    <div class="d-flex justify-content-between mx-3">
+                      <i class="fas fa-retweet"></i>
+                      <i class="fas fa-angle-double-left fa-lg"></i>
+                      <i id="pButton" class="far fa-play-circle fa-2x"></i>
+                      <i class="fas fa-angle-double-right fa-lg"></i>
+                      <i class="fas fa-random"></i>
+                    </div>
+      
+                  </div>
+                  <!-- Grid column -->
+      
+                </div>
+                <!-- Grid row -->
+      
+              </div>
+      
+              <div class="touch-button-wrapper d-flex justify-content-center align-items-center">
+                <div class="touch-button"></div>
+              </div>
+      
+            </div>
+      
+          </div>
+          <!-- Grid column -->
+      
+          <!-- Grid column -->
+          <div class="col-4 mb-4">
+      
+            <div class="card mobile-rounded">
+              <div class="card-body p-1 mt-5">
+      
+                <!-- Grid row -->
+                <div class="row">
+      
+                  <!-- Grid column -->
+                  <div class="col-md-12 d-flex justify-content-start mt-2 pt-1">
+      
+                    <h5 class="font-weight-bold mx-3">Music</h5>
+                    <h5 class="font-weight-bold text-muted">Podcasts</h5>
+      
+                  </div>
+                  <!-- Grid column -->
+      
+                </div>
+                <!-- Grid row -->
+      
+                <!-- Grid row -->
+                <div class="row">
+      
+                  <!-- Grid column -->
+                  <div class="col-md-12 mb-3 d-flex justify-content-start mt-1">
+      
+                    <p class="font-weight-bold active-item mx-3">Playlists</p>
+                    <p class="font-weight-bold text-muted">Albums</p>
+                    <p class="font-weight-bold text-muted mr-3"> All Songs</p>
+      
+                  </div>
+                  <!-- Grid column -->
+      
+                </div>
+                <!-- Grid row -->
+      
+                <!-- Grid row -->
+                <div class="row">
+      
+                  <!-- Grid column -->
+                  <div class="col-md-12 mx-3">
+      
+                    <ul class="list-unstyled playlists">
+                      <li class="media">
+                        <img class="d-flex mr-3 rounded z-depth-1" src="#" alt="image">
+                        <div class="media-body">
+                          <h5 class="mt-0 mb-1 font-weight-bold">Playlist 1</h5>
+                          <p>The Doors</p>
+                        </div>
+                      </li>
+                      <li class="media mt-2">
+                        <img class="d-flex mr-3 rounded z-depth-1" src="#" alt="image">
+                        <div class="media-body">
+                          <h5 class="mt-0 mb-1 font-weight-bold">Playlist 2</h5>
+                          <p>The Doors</p>
+                        </div>
+                      </li>
+                      <li class="media mt-2">
+                        <img class="d-flex mr-3 rounded z-depth-1" src="#" alt="image">
+                        <div class="media-body">
+                          <h5 class="mt-0 mb-1 font-weight-bold">Playlist 3</h5>
+                          <p>The Doors</p>
+                        </div>
+                      </li>
+                      <li class="media mt-2">
+                        <img class="d-flex mr-3 rounded z-depth-1" src="#" alt="image">
+                        <div class="media-body">
+                          <h5 class="mt-0 mb-1 font-weight-bold">Playlist 4</h5>
+                          <p>The Doors</p>
+                        </div>
+                      </li>
+                      <li class="media mt-2">
+                        <img class="d-flex mr-3 rounded z-depth-1" src="#" alt="image">
+                        <div class="media-body">
+                          <h5 class="mt-0 mb-1 font-weight-bold">Playlist 5</h5>
+                          <p>The Doors</p>
+                        </div>
+                      </li>
+                      <li class="media mt-2">
+                        <img class="d-flex mr-3 rounded z-depth-1" src="#" alt="image">
+                        <div class="media-body">
+                          <h5 class="mt-0 mb-1 font-weight-bold">Playlist 6</h5>
+                          <p>The Doors</p>
+                        </div>
+                      </li>
+                    </ul>
+      
+                  </div>
+                  <!-- Grid column -->
+      
+                </div>
+                <!-- Grid row -->
+      
+                <!-- Grid row -->
+                <div class="row">
+      
+                  <!-- Grid column -->
+                  <div class="col-md-12 mb-3">
+      
+                    <div class="d-flex justify-content-between mx-3 text-center">
+                      <div>
+                        <i class="fas fa-home"></i>
+                        <p class="mb-0 font-small">Home</p>
+                      </div>
+                      <div>
+                        <i class="fas fa-search"></i>
+                        <p class="mb-0 font-small">Search</p>
+                      </div>
+                      <div>
+                        <i class="fas fa-layer-group"></i>
+                        <p class="mb-0 font-small">Library</p>
+                      </div>
+                    </div>
+      
+                  </div>
+                  <!-- Grid column -->
+      
+                </div>
+                <!-- Grid row -->
+      
+              </div>
+      
+              <div class="touch-button-wrapper d-flex justify-content-center align-items-center">
+                <div class="touch-button"></div>
+              </div>
+      
+            </div>
+      
+          </div>
+          <!-- Grid column -->
+      
+        </div>
+        <!-- Grid row -->
+      
+      </div>
+<script src="profile.js "></script>
+</body>
+</html> 
