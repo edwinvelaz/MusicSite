@@ -1,5 +1,13 @@
 .jumbotron {
     background: thistle;
     color: darkcyan;
-    : center;
+}
+
+.form-container {
+    margin: 20px 520px;
+    border-width: 500px;
+    border: solid darkcyan;
+    padding: 25px;
+    box-shadow: 9px 9px whitesmoke;
+    border-radius: 50px;
 }
