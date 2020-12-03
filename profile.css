@@ -106,14 +106,43 @@ body {
     cursor: pointer; 
   }
 
-  .jumbotron {
+.jumbotron {
     /*background: rgb(238, 233, 233);*/
     background: none;
     width: 100%;
     padding: 20px;
     max-height: 625px;
-  }
+}
+
+img {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .mask {
   margin: -5px;
+}
+
+.card-body, .list-group-item{
+  background: rgb(222, 222, 223);
+}
+
+.profile-pic {
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.puppy {
+  width: 230px;
+  height: 230px;
+  padding: 10px;
+  margin: 10px;
+  border-color: cyan;
+}
+
+.card-header {
+  background: white;
+}
+
+.card-body {
+  line-height: normal;
+  background: ghostwhite;
 }
