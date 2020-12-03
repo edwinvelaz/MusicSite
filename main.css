@@ -11,10 +11,11 @@ body {
     margin: 10px 10px;
     border: solid white;
     padding: 25px;
-    box-shadow: 9px 9px whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50px;
     margin-left: 10px;
-    background: white;
+    background:rgb(240, 240, 255);
+    color: darkgreen;
 }
 
 main {
@@ -22,15 +23,20 @@ main {
     margin: auto;
     display: flex;
     border-radius: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 40px;
 }
 
 .card{
     margin: 10px 10px;
     border-radius: 50px 50px 50px 50px;
-    box-shadow: 9px 9px whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 60%;
     margin-left: 60px;
     border: none;
+    background:rgb(240, 240, 255);
+    color: darkgreen;
 }
 
 .card-header {
@@ -42,5 +48,5 @@ main {
 
 .card-body {
     text-align: center;
-    color: darkcyan;
+    color: rgb(148, 148, 148);
 }
