@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(147deg, gold 11%, rgba(108,138,93,1) 34%, rgba(182,251,28,1) 35%, gold 35%, rgba(106,137,81,1) 57%, rgba(167,251,28,1) 95%); 
+  }
+
+
+.jumbotron {
+    /*background: rgb(238, 233, 233);*/
+    background: none;
+    width: 100%;
+    padding: 20px;
+    max-height: 625px;
+}
+
+img {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mask {
+  margin: 0px;
+  background: linear-gradient(to bottom right,teal, green, yellow);
+}
+
+.card-body, .list-group-item{
+  background: rgb(222, 222, 223);
+}
+
+
+.puppy {
+  width: 230px;
+  height: 230px;
+  padding: 0px;
+  margin: 10px;
+  border-color: cyan;
+}
+
+.card-header {
+  background: none;
+  border-bottom: solid gold;
+  border-top: solid yellow;
+}
+
+.card-body {
+  line-height: normal;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#favoriteSongsText{
+  opacity: 0.5;
+  font-size: 80px;
+  text-shadow: 10px 10px white;
+}
+
+#carouselText1, #carouselText2, #carouselText3 {
+  color: purple;
+}
+
+.carousel-indicators .active{
+  background-color: #f00;
+}
