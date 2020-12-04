@@ -127,22 +127,25 @@ img {
 }
 
 .profile-pic {
-  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 .puppy {
   width: 230px;
   height: 230px;
-  padding: 10px;
+  padding: 0px;
   margin: 10px;
   border-color: cyan;
 }
 
 .card-header {
-  background: white;
+  background: none;
+  border-bottom: solid gold;
+  border-top: solid yellow;
 }
 
 .card-body {
   line-height: normal;
-  background: ghostwhite;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
