@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(121deg, rgba(103,97,97,1) 11%, rgba(108,138,93,1) 34%, rgba(182,251,28,1) 35%, rgba(99,99,99,1) 35%, rgba(106,137,81,1) 57%, rgba(167,251,28,1) 95%); 
+    background: linear-gradient(147deg, gold 11%, rgba(108,138,93,1) 34%, rgba(182,251,28,1) 35%, gold 35%, rgba(106,137,81,1) 57%, rgba(167,251,28,1) 95%); 
   }
 
   .music-app .carousel-multi-item .carousel-inner.v-2 .carousel-item-right.active,
@@ -44,8 +44,8 @@ body {
     border-radius: 2.5rem; }
   
   .music-app .card-body {
-    background-color: grey;
-width: auto; }
+    background-color: white;
+    width: auto; }
   
   .music-app .touch-button-wrapper {
     height: 3rem; }
@@ -76,7 +76,8 @@ width: auto; }
   }
   
   #pButton {
-    float: left; }
+    float: left; 
+  }
   
   #timeline {
     width: 90%;
@@ -86,12 +87,14 @@ width: auto; }
     float: left;
     -webkit-border-radius: 15px;
     border-radius: 15px;
-    background: rgba(0, 0, 0, 0.3); }
+    background: rgba(0, 0, 0, 0.3); 
+  }
   
   #pButton {
     margin-top: -.55rem;
     float:none;
-    cursor: pointer; }
+    cursor: pointer; 
+  }
   
   #playhead {
     width: 8px;
@@ -100,4 +103,49 @@ width: auto; }
     border-radius: 50%;
     margin-top: -3px;
     background: black;
-    cursor: pointer; }
+    cursor: pointer; 
+  }
+
+.jumbotron {
+    /*background: rgb(238, 233, 233);*/
+    background: none;
+    width: 100%;
+    padding: 20px;
+    max-height: 625px;
+}
+
+img {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mask {
+  margin: -5px;
+}
+
+.card-body, .list-group-item{
+  background: rgb(222, 222, 223);
+}
+
+.profile-pic {
+  
+}
+
+.puppy {
+  width: 230px;
+  height: 230px;
+  padding: 0px;
+  margin: 10px;
+  border-color: cyan;
+}
+
+.card-header {
+  background: none;
+  border-bottom: solid gold;
+  border-top: solid yellow;
+}
+
+.card-body {
+  line-height: normal;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
